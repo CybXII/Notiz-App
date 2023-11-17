@@ -7,7 +7,7 @@ let inputfield = `
 <div class="inputTitel" >
     <input class="titel" id="titel" type="text" placeholder="Titel">
     <textarea class="notice" id="notice" type="text" placeholder="Notiz"></textarea>
-    <button onclick="addNotice('notice')">Hinzufügen</button>
+    <button class="addButton" onclick="addNotice('notice')">Hinzufügen</button>
 </div>
 <div class="card_board" id="card_board"></div>
 `;
